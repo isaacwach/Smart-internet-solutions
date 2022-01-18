@@ -33,7 +33,7 @@
     font-size: 4rem;
     display: block;
     padding-bottom: 5rem;
-    color: rgb(34, 95, 53);
+    color: rgb(39, 119, 64);
 }
 
 .home .slide .content h3 {
@@ -68,3 +68,12 @@ text-align: center;
     justify-content: center;
 }
 
+.services p {
+    margin-left: 140px;
+    font-weight: bold;
+    
+}
+ .services img {
+     align-items: center;
+     margin-left: 30px;
+ }
