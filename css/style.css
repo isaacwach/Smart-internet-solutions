@@ -19,7 +19,7 @@
     top: 0;left: 0;
     height: 100%;
     width: 100%;
-    background: rgba( 0,0,0,.8);
+    background: rgba( 0,0,0,.7);
     z-index: -1;
     
 }
@@ -58,4 +58,13 @@
 .btn :hover{
     letter-spacing: .2rem;
 }
-    
+  
+.about h2{
+text-align: center;
+}
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
