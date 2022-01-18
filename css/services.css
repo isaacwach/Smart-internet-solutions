@@ -79,3 +79,41 @@
         background-color: blue;
         margin-top: 20px;
     }
+
+    /* payment form */
+.payment-form{
+    padding: 60px 90px 40px 90px;
+    font-size: 20px;
+    background-color: white;
+}
+#package-para{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#current-date{
+    width: 200px;
+}
+.form-select{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.payment-section{
+    background-image: url("https://images.unsplash.com/photo-1609705024873-7add858e3036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    padding: 60px 250px 50px 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.payment-section h1{
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#instruction{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
