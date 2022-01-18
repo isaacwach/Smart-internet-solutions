@@ -61,6 +61,7 @@
   
 .about h2{
 text-align: center;
+
 }
 .services {
     display: flex;
@@ -69,11 +70,18 @@ text-align: center;
 }
 
 .services p {
-    margin-left: 140px;
+   margin: 30px;
     font-weight: bold;
+    font-size: 20px;
     
 }
  .services img {
      align-items: center;
      margin-left: 30px;
  }
+
+ .feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
