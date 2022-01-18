@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Haeder -->
+      <header class="header"></header>
+      <!-- Main -->
+      <main class="main">
+        <section class="main__content main__content--login">
+          <div class="acc hidden">
+            <!-- Account Login -->
+            <div class="acc-login">
+              <h2 class="heading-2 acc__header">Login</h2>
+              <form action="#">
+                <label for="login-email" class="acc__label"
+                  >Email / Username</label
+                >
+                <input
+                  type="email"
+                  name="login-email"
+                  id="login-email"
+                  placeholder="Email"
+                  class="acc__input"
+                />
+
+                <label for="login-password" class="acc__label">Password</label>
+                <input
+                  type="password"
+                  name="login-password"
+                  id="login-password"
+                  class="acc__input"
+                />
+
+                <input type="submit" value="Login" class="btn acc__submit" />
+              </form>
+              <div class="acc__footer">
+                <a href="reset_pwd.html" class="link acc__link reset"
+                  >Forgot Password?</a
+                >
+                <span>|</span>
+                <a href="register.html" class="link acc__link signup"
+                  >Sign-up</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
