@@ -1,0 +1,22 @@
+.services-header{
+    background-image: url("../images/servicesbackng.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.services-header h1{
+    color: yellow;
+    font-size: 55px;
+}
+.services-header h2{
+    color: white;
+    font-size: 42px;
+    color: yellow;
+}
+.services-header p{
+    color: white;
+    font-size: 20px;
+}
