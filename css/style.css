@@ -1,0 +1,61 @@
+.home {
+    padding: 0;
+}
+
+.home .slide {
+    min-height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .slide::before {
+    content: '';
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 0,0,0,.8);
+    z-index: -1;
+    
+}
+
+.home .slide .content {
+    text-align: center;
+    width: 70rem ;
+}
+
+.home .slide .content .span {
+    font-size: 3rem;
+    display: block;
+    padding-bottom: 5rem;
+    color: rgb(34, 95, 53);
+}
+
+.home .slide .content .h3 {
+    font-size: 8vw;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0.5rem 1rem rgba( 0,0,0,.8);
+    line-height: 1;
+    padding: 2rem 0;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    background: #cd9542;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+}
+
+.btn :hover{
+    letter-spacing: .2rem;
+}
+    
