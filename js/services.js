@@ -8,6 +8,7 @@ class packages {
 
     payMethod(){
         var payPeriod=(this.daily, this.weekly, this.monthly)
+        
     }
     
 }
@@ -20,7 +21,9 @@ $(document).ready(function() {
         var weeklyPay=parseInt($("#wekly option:selected").val());
         var monthlyPay=parseInt($("#monthly option:selected").val());
         var payment = parseInt($("#payment-option option:selected").val());
-        alert(dailyPay)
+        alert("Your total pay is "+dailyPay + " which you are required to  through " + payment + " within a week.")
+        alert("Your total pay is "+weeklyPay + " which you are required to  through " + payment + " within a week.")
+        alert("Your total pay is "+monthlyPay + " which you are required to  through " + payment + " within a week.")
         var finalPay= new packages(dailyPay, weeklyPay, monthlyPay)
         
     })
