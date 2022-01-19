@@ -39,7 +39,7 @@
                 <div class="phone-email">
                     <div id="phone-form">
                         <label for="email">Enter your Phone No:</label><br>
-                        <input type="phone" id="phone" name="phone" placeholder="Phone Number">
+                        <input type="phone" id="phone" name="phone" placeholder="Phone Number" required>
                     </div>
                     <div id="email-form">
                         <label for="email">Enter your email:</label><br>
@@ -49,11 +49,11 @@
                 <div class="location">
                     <div id="sub-form">
                         <label for="location">Enter your Sub-county:</label><br>
-                        <input type="text" id="sub-county" name="sub-county" placeholder="Sub-county">
+                        <input type="text" id="sub-county" name="sub-county" placeholder="Sub-county" required>
                     </div>
                     <div id="street-form">
                         <label for="Location">Enter your email:</label><br>
-                        <input type="text" id="street-address" name="street-address" placeholder="Street Address">
+                        <input type="text" id="street-address" name="street-address" placeholder="Street Address" required>
                     </div>
                 </div>
                 <div class="row">
@@ -71,7 +71,7 @@
                         <input type="text" id="budget" name="budget" placeholder="Monthly budget">
                     </div>
                 </div>
-                <button id="btn" type="submit">Submit</button>
+                <button onclick="phonenumber()"id="btn" type="submit">Submit</button>
             </div>
         </div>
         <div class="col-md-6 form-image">
