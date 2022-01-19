@@ -72,7 +72,7 @@ button{
     transform: translate(-50%, -45%) scale(1.25);
     width: 400px;
     padding: 20px 30px;
-    background: chocolate;
+    background: silver;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 15);
     border-radius: 20px;
     transition: top 0ms ease-in-out 200ms,
@@ -83,10 +83,11 @@ button{
     position: absolute;
     top: 15px;
     right: 15px;
-    height: 15px;
+    height: 20px;
     background: #b8b9db;
     color: black;
     text-align: center;
+    font-size: 25px;
     line-height: 16px;
     border-radius: 10px;
     cursor: pointer;
@@ -108,8 +109,9 @@ button{
     margin: 15px 0px;
 }
 .popup .form .form-element label{
-    font-size: 15px;
+    font-size: 25px;
     color: black;
+     
 }
 .popup .form .form-element input[type="text"],
 .popup .form .form-element input[type="password"]{
@@ -121,8 +123,18 @@ button{
     border: solid 2px black;
     border-radius: 5px;
 }
-.popup .form .form-element input[type="checkbox"]{
-    margin-right: 5px;
+
+.form-element #email_error,
+.form-element #pass_error{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 350px;
+    font-weight: bold;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background:rgba(255, 0, 0,0.1);
+    display: none;
 }
 .popup .form .form-element button{
     width: 100%;
@@ -140,7 +152,7 @@ button{
     display: block;
     text-align: right;
     font-size: 15px;
-    color: white;
+    color: black;
 
 }
 
