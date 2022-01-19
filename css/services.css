@@ -117,3 +117,22 @@
     font-size: 24px;
     margin-bottom: 20px;
 }
+#btn2{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 24px;
+    color: white;
+    border: 1px solid rgb(255, 251, 0);
+    width: 180px;
+    height: 55px;
+    background-color: blue;
+    margin-top: 20px;
+}
+#btn2:hover {
+    background-color: black;
+}
+.button {
+    text-align: center;
+}
