@@ -67,10 +67,11 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
-.services p {
-
+.services1 p {
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
     
@@ -104,4 +105,23 @@ text-align: center;
 
  .feedback p {
      font-size: 25px;
+    }
+
+ .footer {
+        background-color:rgb(29, 157, 196)
+       
+    }
+
+ .foot {
+        width:100%;
+        margin: auto;
+    }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+ ul {
+        list-style: none;
     }
