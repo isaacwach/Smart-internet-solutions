@@ -9,6 +9,19 @@
     padding-right: 20px;
     color: black;
 }
+
+button{
+    font-size: 15px;
+    border: none;
+    background-color:transparent;
+    padding-top: 20px;
+
+}
+.btn{
+    font-size: 20px;
+    padding-right: 15px;
+    color: black;
+}
 .fa{
     color: white;
     padding-right: 10px;
@@ -19,8 +32,9 @@
     
 }
 .hov{
-    
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left:-10px;
+    padding-bottom:3%;
 }
 
 .submenu{
@@ -36,9 +50,7 @@
 .nav-item:hover .submenu .hov{
     display: block;
     position: absolute;
-    margin-top: 10px;
-    margin-left:-10px;
-    background: #b8b9db;;
+    background: #b8b9db;
 }
 .nav-item:hover .submenu{
     display: block;
@@ -48,5 +60,86 @@
 .submenu ul li a:hover{
     color: white;
     
+}
+.body{
+    background: linear-gradient(to right, #b8b9db);
+    height: 100vh;
+}
+.popup{
+    position: absolute;
+    top: -150%;
+    left: 40%;
+    transform: translate(-50%, -45%) scale(1.25);
+    width: 400px;
+    padding: 20px 30px;
+    background: chocolate;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 15);
+    border-radius: 20px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms
+                transform 20ms ease-in-out 0ms;
+}
+.popup .close-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 15px;
+    background: #b8b9db;
+    color: black;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.popup.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms
+                transform 20ms ease-in-out 0ms;
+}
+.popup .form h3{
+    text-align: center;
+    margin: 15px opx 25px;
+    font-size: 25px;
+}
+.popup .form .form-element{
+    margin: 15px 0px;
+}
+.popup .form .form-element label{
+    font-size: 15px;
+    color: black;
+}
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"]{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+.popup .form .form-element input[type="checkbox"]{
+    margin-right: 5px;
+}
+.popup .form .form-element button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.popup .form .form-element a{
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    color: white;
+
 }
 
