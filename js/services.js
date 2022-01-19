@@ -69,7 +69,6 @@ $(document).ready(function () {
         // console.log(totalPay)
     })
 
-    
 })
 
 function phonenumber() {
@@ -79,7 +78,12 @@ function phonenumber() {
 
         return true;
     } else {
-        alert("Please put a valid phone number");
+        Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'Put a valid phone Number!',
+            footer: '<a href="">Why do I have this issue?</a>'
+          })
         return false;
     }
 }
@@ -92,7 +96,12 @@ function ValidateEmail() {
         // document.form1.text1.focus();
         return true;
     } else {
-        alert("You have entered an invalid email address!");
+        Swal.fire({
+            icon: 'warning',
+            title: 'Error',
+            text: 'Put a valid email address!',
+            footer: '<a href="">Why do I have this issue?</a>'
+          })
         // document.form1.text1.focus();
         return false;
     }
