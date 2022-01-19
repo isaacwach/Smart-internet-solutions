@@ -70,7 +70,7 @@ text-align: center;
 }
 
 .services p {
-   margin: 30px;
+
     font-weight: bold;
     font-size: 20px;
     
@@ -101,3 +101,7 @@ text-align: center;
  .us h2 {
      font-size :30px;
  }
+
+ .feedback p {
+     font-size: 25px;
+    }
