@@ -31,9 +31,59 @@ display: flex;
 .child ul {
     display: flex;
     padding-top: 60px;
+    list-style: none;
+    margin-right: 2%; 
 }
-
-
+.child ul li{
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+    padding-top: 2px;
+    
+}
+.child ul li a{
+    text-decoration: none;
+    width: 100px;
+    color: black;
+}
+.child ul li:hover{
+    background-color: yellow;
+    border-radius: 3px;
+    
+}
+.child .fa{
+    margin-right: 5px;
+}
 .submenu{
     display: none;
 }
+.submenu ul li{
+    font-size: 18px;
+    font-weight: bold;
+}
+.child ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background: #b8b9db;
+    margin-top: 5px;
+    margin-left:0px;
+}
+.child ul li:hover .submenu ul{
+    display: block;
+    margin-bottom: 10px;
+}
+.child ul li:hover .submenu ul li{
+    width: 80px;
+    padding: 5px;
+    border-bottom: 3px solid yellow;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+.submenu ul li a:hover{
+    color: yellow;
+}
+
