@@ -6,18 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Internet Solutions</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/services.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+
 </head>
 
 <body>
 
-     <!-- Services header -->
+    <header>
+        <!-- js -->
+    </header>
 
-     <div class="container-fluid services-header">
+    <div class="container-fluid services-header">
         <h1>Welcome to Smart Internet Solutions</h1>
-        <p>Smart Internet Solutions connects the underserved residents and communities, with affordable internet
+        <p>Smart Internet Solutions connects the underserved residents and communities,
+            with affordable internet
             packages, to enhance unlimited access</p>
         <p>to global trends, knowledge and apportunities</p>
         <h2>Our vision is to connect all Nairobi Residents to the rest</h2>
@@ -39,27 +54,32 @@
                 <div class="phone-email">
                     <div id="phone-form">
                         <label for="email">Enter your Phone No:</label><br>
-                        <input type="phone" id="phone" name="phone" placeholder="Phone Number" required>
+                        <input type="phone" id="phone" name="phone"
+                            placeholder="Phone Number" required>
                     </div>
                     <div id="email-form">
                         <label for="email">Enter your email:</label><br>
-                        <input type="email" id="email" name="email" placeholder="Email Address">
+                        <input type="email" id="email" name="email"
+                            placeholder="Email Address">
                     </div>
                 </div>
                 <div class="location">
                     <div id="sub-form">
                         <label for="location">Enter your Sub-county:</label><br>
-                        <input type="text" id="sub-county" name="sub-county" placeholder="Sub-county" required>
+                        <input type="text" id="sub-county" name="sub-county"
+                            placeholder="Sub-county" required>
                     </div>
                     <div id="street-form">
                         <label for="Location">Enter your Street address:</label><br>
-                        <input type="text" id="street-address" name="street-address" placeholder="Street Address" required>
+                        <input type="text" id="street-address" name="street-address"
+                            placeholder="Street Address" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-5 col-sm-12 subscription">
                         <p>Choose the Intended Purpose</p>
-                        <select class="form-select" id="period" aria-label="Default select example">
+                        <select class="form-select" id="period"
+                            aria-label="Default select example">
                             <option selected>Choose Intended Purpose</option>
                             <option id="home" value="120">Home</option>
                             <option id="office" value="100">Office</option>
@@ -68,7 +88,8 @@
                     </div>
                     <div class="col col-sm-12 internet-speed">
                         <label for="Location">Enter Monthly Internet Budget</label><br>
-                        <input type="text" id="budget" name="budget" placeholder="Monthly budget">
+                        <input type="text" id="budget" name="budget"
+                            placeholder="Monthly budget">
                     </div>
                 </div>
                 <button onclick="validateForm()" id="btn" type="submit">Submit</button>
@@ -79,20 +100,23 @@
         </div>
 
     </div>
-     <!-- payment section -->
+    <!-- payment section -->
 
-     <div class="container-fluid payment-section">
+    <div class="container-fluid payment-section">
         <h1>Package Subscription</h1>
-        <p id="instruction">Fill in this form and submit your payment on time to avoid disconnection</p>
+        <p id="instruction">Fill in this form and submit your payment on time to avoid
+            disconnection</p>
         <div class="payment-form">
             <div class="row">
                 <div class="col name-form">
                     <label for="email">Enter your Name:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Name" style="width: 200px;">
+                    <input type="text" id="name" name="name" placeholder="Name"
+                        style="width: 200px;">
                 </div>
                 <div class="col date-form">
                     <label for="current-date">Enter Today's Date:</label><br>
-                    <input type="date" id="current-date" name="current date" style="width: 200px;">
+                    <input type="date" id="current-date" name="current date"
+                        style="width: 200px;">
                 </div>
             </div>
             <div>
@@ -101,7 +125,8 @@
             <div class="row">
                 <div class="col daily-form">
                     <p>Choose your Daily package</p>
-                    <select class="form-select" id="daily" aria-label="Default select example">
+                    <select class="form-select" id="daily"
+                        aria-label="Default select example">
                         <option selected>Choose the current daily package</option>
                         <option id="home" value="50">1Mbps-4Mbps</option>
                         <option id="office" value="100">5Mbps-10Mbps</option>
@@ -111,7 +136,8 @@
                 </div>
                 <div class="col">
                     <p>Choose your weekly package</p>
-                    <select class="form-select" id="weekly" aria-label="Default select example">
+                    <select class="form-select" id="weekly"
+                        aria-label="Default select example">
                         <option selected>Choose the current weekly package</option>
                         <option id="home" value="300">1Mbps-4Mbps</option>
                         <option id="office" value="600">5Mbps-10Mbps</option>
@@ -119,12 +145,13 @@
                         <option id="cyber" value="1100">16Mbps-20Mbps</option>
                     </select>
                 </div>
-    
+
             </div>
             <div class="row">
                 <div class="col">
                     <p>Choose your Monthly package</p>
-                    <select class="form-select" id="monthly" aria-label="Default select example">
+                    <select class="form-select" id="monthly"
+                        aria-label="Default select example">
                         <option selected>Choose the current monthly package</option>
                         <option id="home" value="2000">1Mbps-4Mbps</option>
                         <option id="office" value="2500">5Mbps-10Mbps</option>
@@ -134,7 +161,8 @@
                 </div>
                 <div class="col">
                     <p>Choose Payment method</p>
-                    <select class="form-select" id="payment-option" aria-label="Default select example">
+                    <select class="form-select" id="payment-option"
+                        aria-label="Default select example">
                         <option selected>Choose your payment option</option>
                         <option id="home" value="mpesa">M-pesa</option>
                         <option id="office" value="debit card">Debit Card</option>
@@ -150,14 +178,24 @@
     </div>
 
 
+    <footer class="mainfooter">
+        <!-- js -->
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous">
+        </script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/services.js"></script>
+
+
+    <script src="js/headFoot.js"></script>
 </body>
 
 </html>

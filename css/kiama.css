@@ -14,11 +14,7 @@ html {
 body {
   font-size: 1.4rem;
   font-weight: normal;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
 .heading-1 {
@@ -171,6 +167,7 @@ a {
 .main--contact .social {
   display: inline-flex;
   align-items: center;
+  font-size: 17px;
 }
 .main--contact .social__icon {
   height: 2rem;
