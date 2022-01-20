@@ -1,46 +1,62 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-.nav-item a{
-    text-decoration: none;
-    font-size: 20px;
-    padding-right: 20px;
-    color: black;
+.nav-item a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 20px;
+  color: black;
 }
 
-.hov #show-signin{
-    font-size: 15px;
-    border: none;
-    background-color:transparent;
-    padding-top: 20px;
+.hov #show-signin {
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  padding-top: 20px;
+}
+.hov #show-login {
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  padding-top: 20px;
+}
+.btn {
+  font-size: 20px;
+  padding-right: 15px;
+  color: black;
+}
+.fa {
+  color: white;
+  padding-right: 10px;
+}
+.nav-item:hover {
+  background-color: #b8b9db;
+  border-radius: 5px;
+}
+.hov {
+  margin-top: 10px;
+  margin-left: -10px;
+  padding-bottom: 3%;
+}
 
+.submenu {
+  display: none;
+  background-color: #b8b9db;
 }
-.hov #show-login{
-    font-size: 15px;
-    border: none;
-    background-color:transparent;
-    padding-top: 20px;
+.submenu ul li {
+  font-size: 18px;
+  text-align: center;
 }
-.btn{
-    font-size: 20px;
-    padding-right: 15px;
-    color: black;
+.nav-item:hover .submenu .hov {
+  display: block;
+  position: absolute;
+  background: #b8b9db;
 }
-.fa{
-    color: white;
-    padding-right: 10px;
-}
-.nav-item:hover{
-    background-color: #b8b9db;
-    border-radius: 5px;
-    
-}
-.hov{
-    margin-top: 10px;
-    margin-left:-10px;
-    padding-bottom:3%;
+.nav-item:hover .submenu {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .submenu{
@@ -140,5 +156,73 @@
     font-size: 15px;
     color: black;
 
+.submenu ul li a:hover {
+  color: white;
+}
+.body {
+  background: linear-gradient(to right, #b8b9db);
+  min-height: 100vh;
+}
+.login-form {
+  margin: 10vh auto;
+  width: 400px;
+  padding: 20px 30px;
+  background: silver;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 15);
+  border-radius: 20px;
+}
+.login-form .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 20px;
+  background: #b8b9db;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  line-height: 16px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
+.login-form .form h3 {
+  text-align: center;
+  margin: 15px opx 25px;
+  font-size: 25px;
+}
+.login-form .form .form-element {
+  margin: 15px 0px;
+}
+.login-form .form .form-element label {
+  font-size: 17px;
+  color: black;
+}
+.login-form .form .form-element input[type="text"],
+.login-form .form .form-element input[type="password"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+.login-form .form .form-element #show-login {
+  width: 50%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.login-form .form .form-element a {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+  color: black;
+}
