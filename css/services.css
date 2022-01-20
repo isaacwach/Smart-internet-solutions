@@ -1,0 +1,256 @@
+.services-header{
+    background-image: url(https://media.istockphoto.com/photos/productivity-powered-by-digital-technology-picture-id1330965067?b=1&k=20&m=1330965067&s=170667a&w=0&h=ys_MV3zYkn2HJCtHC4s_03Sz1MUC2BZv6PcDdk__XSc=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.services-header h1{
+    color: black;
+    font-size: 55px;
+}
+.services-header h2{
+    color: rgb(22, 21, 21);
+    font-size: 42px;
+}
+.services-header p{
+    color: white;
+    font-size: 20px;
+}
+
+/* services form */
+
+.installation-enquiry h2{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    }
+    .installation-enquiry p{
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+    .phone-email{
+        display: flex;
+    }
+    .location-form {
+        display: flex;
+    }
+    #email-form{
+        margin-left: 30px;
+    }
+    #street-form{
+        margin-left: 30px;
+    }
+    #period option{
+        width: 10px;
+    }
+    .installation input{
+        width: 360px;
+        height: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .installation{
+        padding-top: 50px;
+        background-image: url(https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29tcHV0ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form-image img {
+        width: 100%;
+        height: 500px;
+    }
+    .contact-form{
+        background-color: white;
+        padding: 50px 0px 10px 50px;
+    }
+    #btn{
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 30px;
+        margin: .20rem;
+        font-size: 20px;
+        color: white;
+        border: 1px solid rgb(255, 251, 0);
+        width: 140px;
+        height: 45px;
+        background-color: blue;
+        margin-top: 20px;
+    }
+
+    #valid {
+        color: green;
+    }
+
+    /* payment form */
+.payment-form{
+    padding: 60px 90px 40px 90px;
+    font-size: 20px;
+    background-color: white;
+}
+#package-para{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#current-date{
+    width: 200px;
+}
+.form-select{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.payment-section{
+    background-image: url("https://images.unsplash.com/photo-1609705024873-7add858e3036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    padding: 60px 250px 50px 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.payment-section h1{
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#instruction{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#btn2{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 24px;
+    color: white;
+    border: 1px solid rgb(255, 251, 0);
+    width: 180px;
+    height: 55px;
+    background-color: blue;
+    margin-top: 20px;
+}
+#btn2:hover {
+    background-color: black;
+}
+.button {
+    text-align: center;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 360px) {
+ body {
+     background-color: red;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+ }
+ .phone-email{
+     display: block;
+ }
+ .location-form {
+    display: block;
+}
+#email-form{
+    margin-left: 0;
+}
+#street-form{
+    margin-left: 0;
+}
+.contact-form{
+    padding: 10px;
+}
+.installation input{
+    width: 100%;
+    height: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 1px solid blue;
+}
+.subscription{
+    margin-top: -50px;
+}
+.street-form{
+    margin: 0;
+}
+
+.payment-section {
+    margin: 0;
+    padding: 0;
+}
+.payment-form {
+    padding: 10px;
+}
+#btn2{
+    margin: 0;
+    width: 120px;
+    height: 36px;
+    margin-top: 0;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        background-color: red;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .phone-email{
+        display: block;
+    }
+    .location-form {
+       display: block;
+   }
+   .installation-enquiry h2{
+       color: yellow;
+   }
+   #email-form{
+       margin-left: 0;
+   }
+   #street-form{
+       margin-left: 0;
+   }
+   .contact-form{
+       padding: 10px;
+   }
+   .installation input{
+       width: 100%;
+       height: 30px;
+       margin-top: 16px;
+       margin-bottom: 16px;
+       border: 1px solid blue;
+   }
+   .subscription{
+      width: 100%;
+      margin-top: -80px;
+   }
+   .internet-speed{
+       margin-top: -40px;
+   }
+   .street-form{
+       margin: 0;
+   }
+   
+    .payment-section {
+        margin: 0;
+        padding: 0;
+    }
+    .payment-form {
+        padding: 10px;
+    }
+    #btn2{
+        margin: 0;
+        width: 120px;
+        height: 36px;
+        margin-top: 0;
+    }
+}
