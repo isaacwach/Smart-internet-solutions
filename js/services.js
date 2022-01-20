@@ -60,8 +60,8 @@ $(document).ready(function () {
         for (const key in finalPay) {
 
 
-            finalPrice = `${finalPay[key]}`
-            console.log(finalPrice)
+            console.log(`${finalPay[key]}`)
+        
         }
 
 
