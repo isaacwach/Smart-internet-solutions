@@ -35,7 +35,7 @@
     .phone-email{
         display: flex;
     }
-    .location {
+    .location-form {
         display: flex;
     }
     #email-form{
@@ -79,6 +79,10 @@
         height: 45px;
         background-color: blue;
         margin-top: 20px;
+    }
+
+    #valid {
+        color: green;
     }
 
     /* payment form */
@@ -151,7 +155,7 @@
  .phone-email{
      display: block;
  }
- .location {
+ .location-form {
     display: block;
 }
 #email-form{

@@ -71,60 +71,12 @@ $(document).ready(function () {
 
 })
 
-// function phonenumber() {
-//     var phoneNumber = document.getElementById("phone").value
-//     var phoneno = /^\d{10}$/;
-//     if (phoneNumber.match(phoneno)) {
-
-//         return true;
-//     } else {
-//         Swal.fire({
-//             icon: 'error',
-//             title: 'Error',
-//             text: 'Put a valid phone Number!',
-//             footer: '<a href="">Why do I have this issue?</a>'
-//           })
-//         return false;
-//     }
-// }
-
-// function ValidateEmail() {
-//     var inputtedEmail=document.getElementById("email").value
-//     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-//     if (inputtedEmail.match(mailformat)) {
-//         alert("Valid email address!");
-//         // document.form1.text1.focus();
-//         return true;
-//     } else {
-//         Swal.fire({
-//             icon: 'warning',
-//             title: 'Error',
-//             text: 'Put a valid email address!',
-//             footer: '<a href="">Why do I have this issue?</a>'
-//           })
-//         // document.form1.text1.focus();
-//         return false;
-//     }
-// }
-
-// function locationForm() {
-//     var subcounty= document.getElementById("sub-county").value
-//     var budget= document.getElementById("budget").value
-//     if(subcounty===""||budget=="") {
-//         Swal.fire({
-//             icon: 'error',
-//             title: 'Error',
-//             text: 'This field is required!',
-//           })
-//           return false
-//     }
-// }
 
 function validateForm() {
     var phoneNumber = document.getElementById("phone").value
     var phoneno = /^\+(?:[0-9] ?){6,14}[0-9]$/
     var inputtedEmail=document.getElementById("email").value
-    var mailformat =/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    var mailformat = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
     var subcounty= document.getElementById("sub-county").value
     var budget= document.getElementById("budget").value
     var address= document.getElementById("street-address").value
@@ -137,7 +89,7 @@ function validateForm() {
             footer: '<a href="">Why do I have this issue?</a>'
           })
         return false
-    }else if (inputtedEmail.match(mailformat)||inputtedEmail==""||inputtedEmail==null){
+    }else if (inputtedEmail==""||inputtedEmail==null){
         Swal.fire({
             icon: 'warning',
             title: 'Error',
@@ -167,11 +119,18 @@ function validateForm() {
             text: 'Address field is required!',
           })
           return false
-    } else {
+    } else if(inputtedEmail.match(mailformat)){
+        document.getElementById("valid").innerHTML = "valid email address";
         Swal.fire({
             icon: 'success',
             title: 'Response recorded',
             text: 'Thank you for reaching us. We will get to you back shortly.',
+          })
+        return true
+    }else {
+        Swal.fire({
+            icon: 'warning',
+            title: 'invalid email address',
           })
           return true
     }
