@@ -71,54 +71,6 @@ $(document).ready(function () {
 
 })
 
-// function phonenumber() {
-//     var phoneNumber = document.getElementById("phone").value
-//     var phoneno = /^\d{10}$/;
-//     if (phoneNumber.match(phoneno)) {
-
-//         return true;
-//     } else {
-//         Swal.fire({
-//             icon: 'error',
-//             title: 'Error',
-//             text: 'Put a valid phone Number!',
-//             footer: '<a href="">Why do I have this issue?</a>'
-//           })
-//         return false;
-//     }
-// }
-
-// function ValidateEmail() {
-//     var inputtedEmail=document.getElementById("email").value
-//     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-//     if (inputtedEmail.match(mailformat)) {
-//         alert("Valid email address!");
-//         // document.form1.text1.focus();
-//         return true;
-//     } else {
-//         Swal.fire({
-//             icon: 'warning',
-//             title: 'Error',
-//             text: 'Put a valid email address!',
-//             footer: '<a href="">Why do I have this issue?</a>'
-//           })
-//         // document.form1.text1.focus();
-//         return false;
-//     }
-// }
-
-// function locationForm() {
-//     var subcounty= document.getElementById("sub-county").value
-//     var budget= document.getElementById("budget").value
-//     if(subcounty===""||budget=="") {
-//         Swal.fire({
-//             icon: 'error',
-//             title: 'Error',
-//             text: 'This field is required!',
-//           })
-//           return false
-//     }
-// }
 
 function validateForm() {
     var phoneNumber = document.getElementById("phone").value

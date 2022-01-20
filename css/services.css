@@ -35,7 +35,7 @@
     .phone-email{
         display: flex;
     }
-    .location {
+    .location-form {
         display: flex;
     }
     #email-form{
@@ -155,7 +155,7 @@
  .phone-email{
      display: block;
  }
- .location {
+ .location-form {
     display: block;
 }
 #email-form{
