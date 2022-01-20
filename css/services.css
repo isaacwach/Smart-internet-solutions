@@ -81,6 +81,10 @@
         margin-top: 20px;
     }
 
+    #valid {
+        color: green;
+    }
+
     /* payment form */
 .payment-form{
     padding: 60px 90px 40px 90px;
