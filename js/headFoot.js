@@ -30,7 +30,7 @@ footer.innerHTML = `
 <section class="footer">
 
             <div class="address">
-                <img src="images/lg image.png" alt="" id="image">
+                
 
                 <br>
                 <div class="news">
