@@ -1,11 +1,13 @@
-//popup login form
+ function validate(){
 
-document.querySelector("#show-login").addEventListener("click", function(){
-    document.querySelector(".popup").classList.add("active");
-});
-
-document.querySelector(".popup .close-btn").addEventListener("click", function(){
-    document.querySelector(".popup").classList.remove("active");
-});
-
-//form validation
+    var email=document.getElementById("email").Value;
+    var password=document.getElementById("password").Value;
+    if(username=="admin"&& password == "user")
+    {
+        alert("Successful!");
+        return false;
+    }
+    else{
+        alert("Failed!")
+    }
+ }

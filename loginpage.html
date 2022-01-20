@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>login</title>
+</head>
+<body>
+    
+        <div class="container">
+            <h1>Hello everyone!</h1>
+            <div class="login-form">
+                <div class="close-btn">
+                    &times;
+                </div>
+                <div class="form">
+                    <h3>Login</h3>
+                    <form action="" class="login_form" method="POST" name="form" onsubmit="returnvalidated()">
+                        <div class="form-element">
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="text" id="email" name="username" placeholder="Username" required>
+                            
+                        </div>
+                        <div class="form-element">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="enter your pasword" required>
+                        </div>
+                        <div class="form-element">
+                            <input type="checkbox" id="remember-me">
+                            <label for="remember-me">Remember-me</label>
+                        </div>
+                        <div class="form-element">
+                           <center><input type="submit" name="" value="login" onclick="validate()" id="show-login"></center>
+                        </div>
+                        <div class="form-element">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+
+        </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+     
+</body>
+</html>
