@@ -67,10 +67,12 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
+    
 }
 
-.services p {
-   margin: 30px;
+.services1 p {
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
     
@@ -80,8 +82,135 @@ text-align: center;
      margin-left: 30px;
  }
 
+ .us {
+     text-align: center;
+     margin-top: 40px;
+ }
  .feedback {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+ .us h3 {
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: rgb(39, 119, 64);
+    text-shadow: 0.5rem 0.5rem rgba( 0,0,0,.1);
+    line-height: 1;
+    padding: 2rem 0;
+ }
+
+ .us h2 {
+     font-size :30px;
+ }
+
+ .feedback p {
+     font-size: 25px;
+    }
+
+ .footer {
+        background-color: rgb(39, 119, 64);
+        
+       
+    }
+
+ .foot {
+        width:100%;
+        margin: auto;
+    }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+ ul {
+        list-style: none;
+    }
+
+    .footer .news{
+        font-size: 24px;
+    }
+    .mail ul{
+        list-style: none;
+    }
+    .mail ul li {
+        text-decoration: none;
+    }
+    .fb{
+        font-size: 50px;
+        color: black;
+    }
+    .ig{
+        font-size: 50px;
+        color: purple;
+    }
+    .tw{
+        font-size: 50px;
+        color:black;}
+    
+    
+    
+    input[type=text], textarea {
+        width: 70%;
+        padding: 12px;
+        border: 1px solid rgb(172, 16, 16);
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-left: 10px;
+        }
+    
+    .location{
+        font-size:50px;
+    }
+    .email{
+        font-size: 50px;
+    }
+    .phone{
+        font-size: 50px;
+    }
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 4%;
+}
+.footer .address .location{
+    font-size: 25px;
+}
+.footer .mail{
+    font-size: 25px;
+    line-height: 50px;
+}
+.footer .mail .email{
+    font-size: 25px;
+}
+.footer .call .phone{
+    font-size: 25px;
+}
+.footer p{
+    line-height: 20px;
+    padding-bottom: 0px;
+    color: white;
+}
+.mainfooter .copyrite{
+    text-align: center;
+     font-size: 20px;
+     margin-top: 30px;
+}
+
+.btn20 {
+    margin-top: .5rem;
+    display: inline-block;
+    background: #cd9542;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 1rem 1rem;
 }
