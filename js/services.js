@@ -10,26 +10,7 @@ class packages {
     }
 
 
-    // payMethod(){
-    //     if(isNaN(parseInt(this.daily))){
-    //         this.daily=0
-    //         return false
-    //     }
-    //     if(isNaN(parseInt(this.weekly))){
-    //         this.weekly=0
-    //         return false
-    //     }
-    //     if(isNaN(parseInt(this.monthly))){
-    //         this.monthly=0
-    //         return false
-    //     }
-    //     var totalPay=(parseInt(this.daily)+ parseInt(this.weekly)+ parseInt(this.monthly))
-
-    // }
-
 }
-
-
 
 $(document).ready(function () {
     $("#btn2").click(function () {
@@ -39,34 +20,12 @@ $(document).ready(function () {
         var payment = $("#payment-option option:selected").val();
 
 
-        // alert("Your total pay is "+weeklyPay + " which you are required to  through " + payment + " within a week.")
-        // alert("Your total pay is "+monthlyPay + " which you are required to  through " + payment + " within a week.")
-        var finalPay = new packages(dailyPay, weeklyPay, monthlyPay)
-
-        if (isNaN(parseInt(this.daily))) {
-            this.daily = 0
-            return false
-        }
-        if (isNaN(parseInt(this.weekly))) {
-            this.weekly = 0
-            return false
-        }
-        if (isNaN(parseInt(this.monthly))) {
-            this.monthly = 0
-            return false
-        }
-
-        console.log(finalPay)
-        for (const key in finalPay) {
-
-
-            console.log(`${finalPay[key]}`)
-        
-        }
-
-
-        var totalPay = (parseInt(this.daily) + parseInt(this.weekly) + parseInt(this.monthly))
-        // console.log(totalPay)
+        Swal.fire({
+            icon: 'success',
+            title: 'Response recorded',
+            text: "Your total pay is "+monthlyPay + " which you are required to  through " + payment + " within a week.",
+          })
+        return true
     })
 
 })
