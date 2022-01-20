@@ -30,6 +30,10 @@ body {
   font-weight: 500;
 }
 
+.text-light {
+  font-size: 23px;
+}
+
 .btn {
   font-size: 1.8rem;
   cursor: pointer;
@@ -109,10 +113,6 @@ a {
   outline: none;
 }
 
-.acc__submit {
-  width: 40%;
-}
-
 .acc__footer {
   text-align: center;
   font-size: 1.3rem;
@@ -174,4 +174,6 @@ a {
 }
 .main--contact .social a {
   margin: 1rem;
+  text-decoration: none;
+  color: inherit;
 }

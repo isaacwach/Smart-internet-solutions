@@ -1,11 +1,15 @@
-//popup login form
+const loginForm = document.querySelector(".login_form");
 
-document.querySelector("#show-login").addEventListener("click", function(){
-    document.querySelector(".popup").classList.add("active");
+loginForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  if (username == "admin" && password == "user") {
+    alert("Successful!");
+    window.location.href = "index.html";
+    return false;
+  } else {
+    alert("Failed!");
+  }
 });
-
-document.querySelector(".popup .close-btn").addEventListener("click", function(){
-    document.querySelector(".popup").classList.remove("active");
-});
-
-//form validation

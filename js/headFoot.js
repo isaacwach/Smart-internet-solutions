@@ -15,7 +15,7 @@ header.innerHTML = `
                      <div class="submenu bg-secondary">
                         <ul class="hov">
                            <li><button id="show-signin"><a href="register.html">Sign-Up</a></button></li>
-                           <li><button id="show-login"><a href="#">Login</a></button></li>
+                           <li><button id="show-login"><a href="loginpage.html">Login</a></button></li>
                         </ul>
                      </div>
                </li>
