@@ -59,102 +59,95 @@
   margin-bottom: 10px;
 }
 
-.submenu{
-    display: none;
-    background-color: #b8b9db; 
-    
+.submenu {
+  display: none;
+  background-color: #b8b9db;
 }
-.submenu ul li{
-    font-size: 18px;
-    text-align: center;
-     
+.submenu ul li {
+  font-size: 18px;
+  text-align: center;
 }
-.nav-item:hover .submenu .hov{
-    display: block;
-    position: absolute;
-    background: #b8b9db;
+.nav-item:hover .submenu .hov {
+  display: block;
+  position: absolute;
+  background: #b8b9db;
 }
-.nav-item:hover .submenu{
-    display: block;
-    margin-bottom: 10px;
-}
- 
-.submenu ul li a:hover{
-    color: white;
-    
-}
-.body{
-    background: linear-gradient(to right, #b8b9db);
-    height: 100vh;
-}
-.login-form{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -45%) scale(1.25); 
-    width: 400px;
-    padding: 20px 30px;
-    background: silver;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 15);
-    border-radius: 20px;
-    
-}
-.login-form .close-btn{
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    height: 20px;
-    background: #b8b9db;
-    color: black;
-    text-align: center;
-    font-size: 25px;
-    line-height: 16px;
-    border-radius: 10px;
-    cursor: pointer;
-}
- 
-.login-form .form h3{
-    text-align: center;
-    margin: 15px opx 25px;
-    font-size: 25px;
-}
-.login-form .form .form-element{
-    margin: 15px 0px;
-}
-.login-form .form .form-element label{
-    font-size: 17px;
-    color: black;
-     
-}
-.login-form .form .form-element input[type="text"],
-.login-form .form .form-element input[type="password"]{
-    margin-top: 5px;
-    display: block;
-    width: 100%;
-    padding: 5px;
-    outline: none;
-    border: solid 2px black;
-    border-radius: 5px;
+.nav-item:hover .submenu {
+  display: block;
+  margin-bottom: 10px;
 }
 
- 
-.login-form .form .form-element #show-login{
-    width: 50%;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    color: black;
-    background: white;
-    border-radius: 10px;
-    cursor: pointer;
-    padding-bottom: 10px;
-    padding-top: 10px;
+.submenu ul li a:hover {
+  color: white;
 }
-.login-form .form .form-element a{
-    display: block;
-    text-align: right;
-    font-size: 15px;
-    color: black;
+.body {
+  background: linear-gradient(to right, #b8b9db);
+  min-height: 100vh;
+}
+.login-form {
+  /* transform: scale(1.25);  */
+  margin: 100px auto;
+  width: 400px;
+  padding: 20px 30px;
+  background: silver;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 15);
+  border-radius: 20px;
+}
+.login-form .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 20px;
+  background: #b8b9db;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  line-height: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-form .form h3 {
+  text-align: center;
+  margin: 15px opx 25px;
+  font-size: 25px;
+}
+.login-form .form .form-element {
+  margin: 15px 0px;
+}
+.login-form .form .form-element label {
+  font-size: 17px;
+  color: black;
+}
+.login-form .form .form-element input[type="text"],
+.login-form .form .form-element input[type="password"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+.login-form .form .form-element #show-login {
+  width: 50%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.login-form .form .form-element a {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+  color: black;
+}
 
 .submenu ul li a:hover {
   color: white;
@@ -212,9 +205,9 @@
   width: 50%;
   border: none;
   outline: none;
-  font-size: 16px;
-  color: black;
-  background: white;
+  font-size: 18px;
+  color: white;
+  background: #cd9542;
   border-radius: 10px;
   cursor: pointer;
   padding-bottom: 10px;
